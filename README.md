@@ -39,14 +39,14 @@ efontUTF16progmemOnlyMiniJapanese.hは常用漢字とよく使いそうな記号
 
 ## フォントサイズ
 
-| オプション                   | フォント容量 |
-|------------------------------|--------------|
-| Full                         | 1,441,792    |
-| efontUTF16DisableAll.h       | 0            |
-| efontUTF16DisableCJK.h       | 507,904      |
-| efontUTF16DisableHang.h      | 1,081,344    |
-| efontUTF16OnlyCJK.h          | 1,007,616    |
-| efontUTF16OnlyMiniJapanese.h | 753,664      |
+| オプション                          | フォント容量 |
+|-------------------------------------|--------------|
+| Full                                | 1,441,792    |
+| efontUTF16progmemDisableAll.h       | 0            |
+| efontUTF16progmemDisableCJK.h       | 507,904      |
+| efontUTF16progmemDisableHang.h      | 1,081,344    |
+| efontUTF16progmemOnlyCJK.h          | 1,007,616    |
+| efontUTF16progmemOnlyMiniJapanese.h | 753,664      |
 
 ## M5StickC以外での利用方法
 
