@@ -34,9 +34,8 @@ void getefontData( uint8_t *font, uint16_t fontUTF16 ) {
   if( efontUTF16FontData[ fontUTF16 >> 8 ] != 0 ){
     memcpy( font, efontUTF16FontData[ fontUTF16 >> 8 ] + ( fontUTF16 & 0xFF ) * 32, 32 );
   } else {
-    // Tofu □
-    Serial.printf( "str : U+%04X Tofu!\n", fontUTF16 );
-    memcpy( font, efontUTF16FontData[ 0x25 ] + ( 0xAL ) * 32, 32 );
+    // No Font
+    memset( font, 0, 32 );
   } 
 }
 
