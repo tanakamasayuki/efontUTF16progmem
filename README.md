@@ -51,3 +51,22 @@ efontUTF16progmemOnlyMiniJapanese.hは常用漢字とよく使いそうな記号
 ## M5StickC以外での利用方法
 
 描画周りについては機種ごとに違うため、各自機種に合わせて作り直してください。
+
+## サンプルコード
+```
+#include <M5StickC.h>
+#include "efontUTF16progmemOnlyMiniJapanese.h"
+#include "efontUTF16progmemM5StickC.h"
+
+void setup() {
+  M5.begin();
+  M5.Lcd.setRotation(0);
+  M5.Lcd.setCursor(0, 0);
+
+  printEfont("Hello", 0, 16*0);
+  printEfont("こんにちは", 0, 16*1);
+}
+
+void loop() {
+}
+```
