@@ -4,6 +4,11 @@ http://openlab.ring.gr.jp/efont/unicode/
 
 /efont/ Unicode Font をArduinoで使えるようにしました。
 
+## 備考
+
+本プロジェクトは実験的なものです。
+文字単位で読み込める[efont](https://github.com/tanakamasayuki/efont)の利用をおすすめします。
+
 ## 概要
 
 /efont/ Unicode Fontに収録されているf16.bdfとb16.bdfを利用して1文字32バイトの16ピクセルフォントデータです。
