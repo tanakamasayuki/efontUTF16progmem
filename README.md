@@ -1,4 +1,4 @@
-# efont UTF16 Font Data(PROGMEM)
+# [実験] efont UTF16 Font Data(PROGMEM)
 
 http://openlab.ring.gr.jp/efont/unicode/
 
@@ -7,7 +7,7 @@ http://openlab.ring.gr.jp/efont/unicode/
 ## 備考
 
 本プロジェクトは実験的なものです。
-文字単位で読み込める[efont](https://github.com/tanakamasayuki/efont)の利用をおすすめします。
+実際に利用するのであれば文字単位で読み込める[efont for Arduino](https://github.com/tanakamasayuki/efont)をおすすめします。
 
 ## 概要
 
